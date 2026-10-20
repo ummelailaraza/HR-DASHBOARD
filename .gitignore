@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+**/node_modules/
+.pnp
+.pnp.js
+
+# Next.js build
+.next/
+**/.next/
+out/
+build/
+dist/
+
+# .NET / C#
+bin/
+**/bin/
+obj/
+**/obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+appsettings.Development.json
+
+# Logs & temp
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.dotnet/
+*.zip
+*.bin
+
+# Environment & local secrets
+.env*.local
+.env
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
